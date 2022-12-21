@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+@import url('https://fonts.googleapis.com/css?family=Cinzel');
+
+.title{
+    text-align: center;
+    font-family: Merriweather;
+    font-weight: 800;
+    font-size: 3em;
+    font-style: italic;
+}
+
+.civilization{
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+.civPreview{
+    display: grid;
+    grid-template-columns: max-content 100px auto;
+    border-bottom: 1px solid darkblue;
+    align-items: baseline;    
+}
+
+.civTitle{
+    font-family: Cinzel;
+    font-weight: 600;
+    font-size: 1.5em;
+}
+
+img{
+    width: 60px;
+    height: auto;
+    margin-left: 10px;
+}
+
+audio{
+    max-width: 50%;
+}
+
+.secondLevel{
+    margin-left: 2em;
+    list-style-type: circle;
+}
+
+li{
+    margin-left: 20px;
+    padding: 3px;
+}

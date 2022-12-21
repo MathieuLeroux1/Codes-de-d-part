@@ -1,0 +1,68 @@
+.calendarContainer {
+    background-color:midnightblue;
+    border: solid darkblue;
+    border-radius: 30px;
+}
+
+.title {
+    -webkit-text-stroke-width: 0.3px;
+    -webkit-text-stroke-color: gray;
+    -webkit-text-fill-color: gold;
+    font-size: 2em;
+    text-align: center;
+}
+
+.months {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 50px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+.month {
+    display: grid;
+    border: 1px solid goldenrod;
+    border-radius: 10px;
+    align-items: center;
+    padding-left: auto;
+    padding-right: auto;
+    background-color: antiquewhite;
+    color: black;
+    max-width: 40ch;
+}
+
+.monthTitle {
+    font-size: 1.5em;
+    text-align: center;
+    padding: 5px;
+}
+
+.daysOfWeek {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    padding: 10px;
+    gap: 10px;
+    text-align: center;
+}
+
+.daysContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    padding: 10px;
+    text-align: center;
+}
+
+.holiday {
+    color:red;
+    font-weight: 900;
+}
+
+.importantDay{
+    color: darkorange;
+    font-weight: 900;
+}

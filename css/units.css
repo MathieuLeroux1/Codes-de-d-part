@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Cinzel');
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+
+.title {
+    text-align: center;
+    font-family: Merriweather;
+    font-weight: 800;
+    font-size: 3em;
+    font-style: italic;
+}
+
+.unités {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.unité {
+    border: 2px solid goldenrod;
+    border-radius: 20px;
+    text-align: center;
+    padding: 8px;
+    width: 400px;
+    height: 325px;
+    background-color: antiquewhite;
+
+}
+
+.unitTitle {
+    text-align: center;
+    font-style: italic;
+    font-family: Cinzel;
+}
+
+
+h2 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid darkblue;
+    font-family: Cinzel;
+}
+
+
+iframe {
+    display: block;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    margin-top: 50px;
+}

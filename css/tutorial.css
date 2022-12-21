@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+@import url('https://fonts.googleapis.com/css?family=Cinzel');
+
+.title{
+    text-align: center;
+    font-family: Merriweather;
+    font-weight: 800;
+    font-size: 3em;
+    font-style: italic;
+}
+
+.image {
+    display: block;
+    max-width:640px;
+    width: 100%;
+    height: auto;
+    border: 0.25rem solid goldenrod;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid darkblue;
+    font-family: Cinzel;
+}
+
+p {
+    text-align: justify;
+}
+
+ol {
+    padding-left: 20px;
+    list-style-type: upper-roman;
+
+}
+
+li {
+    padding: 5px;
+}
+
+.ageUpShowcase{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+@media screen and (max-width: 1300px) {
+    .ageUpShowcase{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+h3 {
+    text-indent: 4ch;
+    margin-top: 10px;
+}
+
+table {
+    margin-top: 10px;
+    border-collapse: collapse;
+    border-spacing: 0;
+    table-layout: auto;
+    width: 100%;
+}
+
+th {
+    border: 2px solid black;
+    text-align: center;
+    min-width: 15ch;
+}
+
+td {
+    border: 2px solid black;
+    padding-left: 10px;
+    padding-right: 10px;
+    min-width: 500px;
+}
+
+td img{
+    min-width: 750px;
+    max-width: 800px;
+    height: auto;
+    display: inline;
+    text-align: center;
+    justify-content: center;
+}
+
+.scroll{
+    overflow-x: auto;
+}
+
+.textBox{
+    width: 500px;
+}
+
+iframe{
+    display: block;
+    align-items: center;
+    margin-left : auto;
+    margin-right: auto;
+    border: none;
+}
